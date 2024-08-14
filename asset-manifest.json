@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Muhammed-tr/portfolio_v2/static/css/main.225a1e66.css",
+    "main.js": "/Muhammed-tr/portfolio_v2/static/js/main.1deea720.js",
+    "static/js/415.4d6acbeb.chunk.js": "/Muhammed-tr/portfolio_v2/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Muhammed-tr/portfolio_v2/static/js/787.1ed0c42c.chunk.js",
+    "static/media/emotion.png": "/Muhammed-tr/portfolio_v2/static/media/emotion.04f51dcf83fb20447590.png",
+    "static/media/blog.png": "/Muhammed-tr/portfolio_v2/static/media/blog.351cec3fbf562233cf16.png",
+    "static/media/chatify.png": "/Muhammed-tr/portfolio_v2/static/media/chatify.64febb7b5c767cf9f667.png",
+    "static/media/ml.png": "/Muhammed-tr/portfolio_v2/static/media/ml.97828da164ebc6bafc71.png",
+    "static/media/leaf.png": "/Muhammed-tr/portfolio_v2/static/media/leaf.5f3744a356b35a650e52.png",
+    "static/media/suicide.png": "/Muhammed-tr/portfolio_v2/static/media/suicide.c27dae4dd0cf8eb29862.png",
+    "static/media/MuhammedİzzetDemir_CV.png": "/Muhammed-tr/portfolio_v2/static/media/MuhammedİzzetDemir_CV.9d5d77d0f728d384ad1e.png",
+    "static/media/avatar.png": "/Muhammed-tr/portfolio_v2/static/media/avatar.61426b7644e14a96a20d.png",
+    "static/media/codeEditor.png": "/Muhammed-tr/portfolio_v2/static/media/codeEditor.ccc061bf33bb1040bd10.png",
+    "static/media/home-main.svg": "/Muhammed-tr/portfolio_v2/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
+    "static/media/about.png": "/Muhammed-tr/portfolio_v2/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/logo.png": "/Muhammed-tr/portfolio_v2/static/media/logo.78a5921b19f3380d5e7e.png",
+    "static/media/home-bg.jpg": "/Muhammed-tr/portfolio_v2/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/pre.svg": "/Muhammed-tr/portfolio_v2/static/media/pre.4410c5baaa673cc131da.svg",
+    "index.html": "/Muhammed-tr/portfolio_v2/index.html",
+    "main.225a1e66.css.map": "/Muhammed-tr/portfolio_v2/static/css/main.225a1e66.css.map",
+    "main.1deea720.js.map": "/Muhammed-tr/portfolio_v2/static/js/main.1deea720.js.map",
+    "415.4d6acbeb.chunk.js.map": "/Muhammed-tr/portfolio_v2/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Muhammed-tr/portfolio_v2/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.225a1e66.css",
+    "static/js/main.1deea720.js"
+  ]
+}
