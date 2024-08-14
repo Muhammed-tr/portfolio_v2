@@ -2,11 +2,8 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/Soumyajit_Behera-BIT_MESRA.pdf";
+import image from "../../Assets/../Assets/MuhammedİzzetDemir_CV.png";
 import { AiOutlineDownload } from "react-icons/ai";
-import { Document, Page, pdfjs } from "react-pdf";
-import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
@@ -22,8 +19,8 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href={pdf}
-            target="_blank"
+            href={image}
+            download="MuhammedİzzetDemir_CV.png"
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
@@ -32,16 +29,23 @@ function ResumeNew() {
         </Row>
 
         <Row className="resume">
-          <Document file={pdf} className="d-flex justify-content-center">
-            <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
-          </Document>
+          <img
+            src={image}
+            alt="Resume"
+            style={{
+              maxWidth: "1000px", // Genişlik ayarı
+              height: "auto", // Otomatik yükseklik ayarı
+              boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.1)", // Hafif gölge efekti
+            }}
+            className="d-flex justify-content-center"
+          />
         </Row>
 
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href={pdf}
-            target="_blank"
+            href={image}
+            download="MuhammedİzzetDemir_CV.png"
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />

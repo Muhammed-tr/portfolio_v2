@@ -8,6 +8,7 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import ml from "../../Assets/Projects/ml.png";
 
 function Projects() {
   return (
@@ -25,10 +26,9 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Classification of Brain Tumors"
+              description="Glioblastoma, a common and aggressive brain tumor in adults, has a poor prognosis with an average survival of less than a year. Scientists have identified that MGMT promoter methylation in the tumor's genetics can improve survival and predict chemotherapy response. Currently, genetic analysis requires tumor biopsy and takes weeks, often necessitating additional surgeries. If radiogenomics could predict genetic information from images, it could minimize surgeries and guide more effective treatment."
+              ghLink="https://github.com/Muhammed-tr/classification-of-brain-tumor-mri-Resnet18"
             />
           </Col>
 
@@ -36,10 +36,9 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Speech-Emotion-Recognition-Based Travel Guide Assistant"
+              description="We developed a travel guide assistant that uses speech emotion recognition to analyze users' emotional states. Based on their emotions, the assistant suggests places to visit, recommends events, and displays topics of interest that are aligned with their current mood."
+              ghLink="https://github.com/Muhammed-tr/speech-emotion-recognition"
             />
           </Col>
 
@@ -47,10 +46,9 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="anime recommendation systems"
+              description="Explored various techniques and algorithms in data mining relevant to the recommendation system domain. -Gathered and preprocessed anime dataset(s) to prepare them for analysis and modeling. -Implemented user-based collaborative filtering to recommend anime based on user preferences and similarities."
+              ghLink="https://github.com/Muhammed-tr/Team6_DataCinephiles"             
             />
           </Col>
 
@@ -58,21 +56,9 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Rent-A-Car-OOP"
+              description="This project, Rent-A-Car-OOP, is an object-oriented C# application that simulates a car rental system. It allows users to manage car rentals, including features for adding, updating, and deleting vehicle listings. The system implements core functionalities such as user registration, rental transactions, and price calculations, providing a comprehensive solution for managing a car rental business efficiently."
+              ghLink="https://github.com/Muhammed-tr/Rent-A-Car-OOP-"
             />
           </Col>
 
@@ -80,13 +66,34 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Earthquake and Disaster Alert Web Application"
+              description="Developed a web application using JavaScript that leverages API data to monitor earthquake and disaster events. The application provides personalized notifications to users if an earthquake or disaster occurs near them, offering timely alerts and safety information."
+              ghLink="https://github.com/Muhammed-tr"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={suicide}
+              isBlog={false}
+              title="Overview of React Projects"
+              description="In my React projects, including Papilon, I focus on creating user-friendly interfaces and efficient data management solutions. I leverage modern technologies and best practices to ensure high-quality applications, while addressing challenges through innovative problem-solving strategies."
+              ghLink="https://papilon.com.tr/tr/urunler"
+              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ml}
+              isBlog={false}
+              title="Temperature, CO2 Emissions, and Sea Level Trends"
+              description="This project investigates the relationship between climate change indicators such as temperature variations, CO2 emissions, and sea level rise. Utilizing multiple datasets spanning several decades, we visualize global and regional trends using advanced data visualization tools like Plotly and Seaborn. Through statistical analysis and regression models, we predict future changes and explore the potential impact on our environment. This study aims to raise awareness and contribute to the understanding of climate change and its effects on our planet's future."
+              ghLink="https://github.com/Muhammed-tr"
+              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+            />
+          </Col>
+
         </Row>
       </Container>
     </Container>
