@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import image from "../../Assets/../Assets/MuhammedİzzetDemir_CV.png";
+import image from "../../Assets/../Assets/MuhammedİzzetDemir_CV.jpg";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function ResumeNew() {
@@ -20,7 +20,7 @@ function ResumeNew() {
           <Button
             variant="primary"
             href={image}
-            download="MuhammedİzzetDemir_CV.png"
+            download="MuhammedİzzetDemir_CV.jpg"
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
@@ -45,7 +45,7 @@ function ResumeNew() {
           <Button
             variant="primary"
             href={image}
-            download="MuhammedİzzetDemir_CV.png"
+            download="MuhammedİzzetDemir_CV.jpg"
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
