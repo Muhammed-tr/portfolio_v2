@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio_v2/static/css/main.28167606.css",
-    "main.js": "/portfolio_v2/static/js/main.6f5a4ef1.js",
+    "main.js": "/portfolio_v2/static/js/main.cca51666.js",
     "static/js/415.4d6acbeb.chunk.js": "/portfolio_v2/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio_v2/static/js/787.1ed0c42c.chunk.js",
     "static/media/emotion.png": "/portfolio_v2/static/media/emotion.04f51dcf83fb20447590.png",
@@ -9,23 +9,23 @@
     "static/media/chatify.png": "/portfolio_v2/static/media/chatify.64febb7b5c767cf9f667.png",
     "static/media/ml.png": "/portfolio_v2/static/media/ml.97828da164ebc6bafc71.png",
     "static/media/leaf.png": "/portfolio_v2/static/media/leaf.5f3744a356b35a650e52.png",
+    "static/media/Muhammedİzzet_DEMİR_CV.pdf": "/portfolio_v2/static/media/Muhammedİzzet_DEMİR_CV.7130d1109df6d8c744c3.pdf",
     "static/media/suicide.png": "/portfolio_v2/static/media/suicide.c27dae4dd0cf8eb29862.png",
     "static/media/avatar.png": "/portfolio_v2/static/media/avatar.61426b7644e14a96a20d.png",
     "static/media/codeEditor.png": "/portfolio_v2/static/media/codeEditor.ccc061bf33bb1040bd10.png",
     "static/media/home-main.svg": "/portfolio_v2/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
     "static/media/about.png": "/portfolio_v2/static/media/about.aee0f771fbfc1e7b8fa8.png",
-    "static/media/Muhammedİzzet_DEMİR_CV.pdf": "/portfolio_v2/static/media/Muhammedİzzet_DEMİR_CV.b46ff8243c9ab801ef74.pdf",
     "static/media/logo.png": "/portfolio_v2/static/media/logo.78a5921b19f3380d5e7e.png",
     "static/media/home-bg.jpg": "/portfolio_v2/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
     "static/media/pre.svg": "/portfolio_v2/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/portfolio_v2/index.html",
     "main.28167606.css.map": "/portfolio_v2/static/css/main.28167606.css.map",
-    "main.6f5a4ef1.js.map": "/portfolio_v2/static/js/main.6f5a4ef1.js.map",
+    "main.cca51666.js.map": "/portfolio_v2/static/js/main.cca51666.js.map",
     "415.4d6acbeb.chunk.js.map": "/portfolio_v2/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio_v2/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.28167606.css",
-    "static/js/main.6f5a4ef1.js"
+    "static/js/main.cca51666.js"
   ]
 }
