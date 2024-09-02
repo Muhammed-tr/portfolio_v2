@@ -31,10 +31,10 @@ function NavBar() {
 
   window.addEventListener("scroll", scrollHandler);
 
-  const handleBlogClick = (e) => {
-    e.preventDefault();
-    setShowAlert(true); // Show alert
+  const handleBlogClick = () => {
+    window.location.href = "https://medium.com/@muhammedizzetdemirr";
   };
+  
 
   return (
     <>
